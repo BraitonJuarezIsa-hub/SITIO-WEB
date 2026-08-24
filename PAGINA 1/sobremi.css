@@ -1,0 +1,35 @@
+
+/* Navbar (Barra de navegación) */
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #ffffff!important
+}
+
+.navbar .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-link:hover {
+    color: #0048ff;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+}
