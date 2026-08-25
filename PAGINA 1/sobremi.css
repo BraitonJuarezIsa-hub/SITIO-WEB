@@ -33,3 +33,10 @@ h1 {
 p {
     margin-bottom: 20px;
 }
+
+/* Cuerpo */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+

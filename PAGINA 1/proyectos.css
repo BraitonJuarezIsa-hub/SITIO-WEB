@@ -1,0 +1,155 @@
+
+/* Navbar (Barra de navegación) */
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #ffffff!important
+}
+
+.navbar .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-link:hover {
+    color: #0048ff;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+
+.carrusel {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 80px auto;
+    overflow: hidden;
+}
+
+.carrusel input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+
+/* Movimiento Carrusel */
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
+#slide5:checked ~ .slides {
+    transform: translateX(-400%);
+}
+
+#slide6:checked ~ .slides {
+    transform: translateX(-500%);
+}
+
+
+
+/* Flechas */
+
+.flechas {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.flechas label {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* Mostrar las flechas correspondientes */
+
+#slide1:checked ~ .flechas1 {
+    display: flex !important;
+}
+
+#slide2:checked ~ .flechas2 {
+    display: flex !important;
+}
+
+#slide3:checked ~ .flechas3 {
+    display: flex !important;
+}
+
+#slide4:checked ~ .flechas4 {
+    display: flex !important;
+}
+
+#slide5:checked ~ .flechas5 {
+    display: flex !important;
+}
+
+#slide6:checked ~ .flechas6 {
+    display: flex !important;
+}
+
+#slide7:checked ~ .flechas7 {
+    display: flex !important;
+}
+
+/* Cuerpo */
+
+body {
+    background-image: url("img/AETHER\ NUEVO\ FONDO245.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url("img/AETHERFONDOLARGO3.png");
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
